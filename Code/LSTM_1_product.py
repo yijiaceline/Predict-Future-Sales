@@ -112,11 +112,12 @@ trainY = scaler.inverse_transform(Y_train)
 testPredict = scaler.inverse_transform(testPredict)
 testY = scaler.inverse_transform(Y_test)
 
-# calculate root mean squared error
+# print training loss
 plt.plot(training1.history['loss'], label= 'loss(mse)')
 plt.plot(np.sqrt(training1.history['mean_squared_error']), label= 'rmse')
 plt.title('Training loss')
 plt.legend(loc=1)
+plt.show()
 
 plt.plot(data_inc.values[374])
 plt.xlabel('month')
