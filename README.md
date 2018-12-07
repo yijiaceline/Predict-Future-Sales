@@ -9,3 +9,5 @@ https://storage.googleapis.com/predict_future_sales_data/data.zip
 
 2. Running Code
 All codes are in Code folder.
+
+* Kaggle.py is for kaggle submission. At the end it will save a csv file.
